@@ -9,10 +9,6 @@
   - [Objetivo](#objetivo)
   - [Estrutura de Pastas](#estrutura-de-pastas)
   - [Padrões Documentados](#padrões-documentados)
-  - [Exemplos](#exemplos)
-    - [Sequential (ASCII Art)](#sequential-ascii-art)
-    - [Router (ASCII Art)](#router-ascii-art)
-  - [Links Úteis](#links-úteis)
 
 ## Sobre
 Este repositório reúne, explica e exemplifica padrões de arquitetura para sistemas multi-agente, facilitando o entendimento e aplicação desses conceitos em projetos reais.
@@ -41,40 +37,3 @@ Oferecer uma referência prática e visual para arquiteturas de agentes, promove
 - [Network](05-network.md)
 - [Autonomous Agents](06-autonomous-agents.md)
 
-## Exemplos
-
-### Sequential (ASCII Art)
-```
-Usuário
-   |
-   v
-+----------+     +----------+     +----------+
-| Agent 1  | --> | Agent 2  | --> | Agent 3  |
-+----------+     +----------+     +----------+
-      |_________________________________|
-                   |
-                Output
-```
-
-### Router (ASCII Art)
-```
-Usuário
-   |
-   v
-+----------------+
-|   TravelAgent  |
-+----------------+
-     /      \
-    v        v
-+-----------+   +-----------+
-| Flight    |   |  Hotel    |
-|  Agent    |   |  Agent    |
-+-----------+   +-----------+
-    |              |
-    v              v
-Flight Out     Hotel Out
-```
-
-## Links Úteis
-- [Badges para GitHub](https://home.aveek.io/GitHub-Profile-Badges/)
-- [Multi-Agent Systems (Wikipedia)](https://en.wikipedia.org/wiki/Multi-agent_system) # genai-multi-agents-design-patterns
